@@ -12,7 +12,6 @@ namespace APIVerve.API.WordOpposites
     {
         /// <summary>
         /// The word to get the opposites for
-        /// Example: hot
         /// </summary>
         [JsonProperty("word")]
         public string Word { get; set; }
