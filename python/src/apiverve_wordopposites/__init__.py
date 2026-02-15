@@ -1,1 +1,3 @@
-from .apiClient import WordoppositeAPIClient
+from .apiClient import WordoppositeAPIClient, WordoppositeAPIClientError
+
+__all__ = ['WordoppositeAPIClient', 'WordoppositeAPIClientError']
