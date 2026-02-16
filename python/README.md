@@ -223,8 +223,9 @@ from apiverve_wordopposites.apiClient import WordoppositeAPIClient
 
 api = WordoppositeAPIClient("[YOUR_API_KEY]")
 
+query = { "word": "hot" }
+
 try:
-    query = { "word": "hot" }
     result = api.execute(query)
     print(result)
 finally:
