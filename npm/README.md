@@ -127,7 +127,7 @@ async function makeRequest() {
       "cold",
       "cool",
       "chilly",
-      "freezing",
+      "frozen",
       "frigid"
     ]
   }
