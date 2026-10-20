@@ -1,13 +1,13 @@
-# [Word Opposites API](https://apiverve.com/marketplace/wordopposite?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+# [Word Opposites API](https://apiverve.com/marketplace/wordopposite?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 
-Word Opposites is a simple tool for getting the opposites of a word. It returns a list of opposites for the given word.
+Word Opposites looks up direct antonyms for any single input term. Pass an English word to receive an array of contrasting and opposing words.
 
 The Word Opposites API provides a simple, reliable way to integrate word opposites functionality into your applications. Built for developers who need production-ready word opposites capabilities without the complexity of building from scratch.
 
-**[View API Details →](https://apiverve.com/marketplace/wordopposite?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)**
+**[View API Details →](https://apiverve.com/marketplace/wordopposite?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/wordopposite?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/wordopposite?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 [![Method](https://img.shields.io/badge/Method-GET-blue.svg)](#)
 [![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
 
@@ -161,7 +161,7 @@ go get github.com/apiverve/wordopposite-api/go
 
 ## Documentation
 
-- 🏠 **API Home:** [Word Opposites API](https://apiverve.com/marketplace/wordopposite?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home:** [Word Opposites API](https://apiverve.com/marketplace/wordopposite?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 📚 **API Reference:** [docs.apiverve.com/ref/wordopposite](https://docs.apiverve.com/ref/wordopposite)
 - 📖 **OpenAPI Spec:** [openapi.yaml](./openapi.yaml)
 - 💡 **Examples:** [examples/](./examples/)
@@ -191,11 +191,35 @@ x-api-key: YOUR_API_KEY_HERE
 Get your API key: [https://apiverve.com](https://apiverve.com)
 
 ### Response Format
-All responses are JSON with this structure:
+
+Every APIVerve endpoint returns the same envelope — check `status`, then read `data`:
+
 ```json
 {
   "status": "ok",
+  "error": null,
   "data": { ... }
+}
+```
+
+### Example Response
+
+A real response from the Word Opposites API:
+
+```json
+{
+  "status": "ok",
+  "error": null,
+  "data": {
+    "word": "hot",
+    "opposites": [
+      "cold",
+      "cool",
+      "chilly",
+      "frozen",
+      "frigid"
+    ]
+  }
 }
 ```
 
@@ -203,7 +227,7 @@ All responses are JSON with this structure:
 
 ## Support & Community
 
-- 🏠 **API Home**: [Word Opposites API](https://apiverve.com/marketplace/wordopposite?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home**: [Word Opposites API](https://apiverve.com/marketplace/wordopposite?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
 - 🐛 **Issues**: [GitHub Issues](../../issues)
 - 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)
