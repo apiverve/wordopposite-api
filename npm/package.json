@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/wordopposite",
-  "version": "1.2.0",
-  "description": "Word Opposites is a simple tool for getting the opposites of a word. It returns a list of opposites for the given word.",
+  "version": "1.2.2",
+  "description": "Word Opposites looks up direct antonyms for any single input term. Pass an English word to receive an array of contrasting and opposing words.",
   "main": "index.js",
   "types": "index.d.ts",
   "sideEffects": false,
@@ -23,7 +23,7 @@
     "directory": "npm"
   },
   "keywords": [
-    "word opposite", "word opposite api", "word opposite tool", "word opposite software", "word opposite service"
+    "antonyms api", "find antonyms", "word opposites", "lookup opposite words", "get antonym of word"
   ],
   "author": {
     "name": "APIVerve",
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/apiverve/wordopposite-api/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/wordopposite?utm_source=npm&utm_medium=homepage",
+  "homepage": "https://apiverve.com/marketplace/wordopposite?utm_source=npm&utm_medium=referral&utm_content=homepage",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
