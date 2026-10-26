@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/wordopposite",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Word Opposites looks up direct antonyms for any single input term. Pass an English word to receive an array of contrasting and opposing words.",
   "main": "index.js",
   "types": "index.d.ts",
