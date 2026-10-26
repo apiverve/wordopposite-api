@@ -4,6 +4,6 @@ require_relative "apiverve_wordopposite/client"
 
 module APIVerve
   module Wordopposite
-    VERSION = "1.2.2"
+    VERSION = "1.2.3"
   end
 end
